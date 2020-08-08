@@ -8,6 +8,24 @@ Added Alikahwaji as a collaborator to my repo.
 
 Changed some files and created a rectangle example. I used (p5.js.org) *examples/hello-p5-simple-shapes* (n.d)
 
+```
+ function setup(){
+     createCanvas(400, 600);
+}
+ function draw(){
+    // clear background
+    background(200);
+    // colour
+    stroke('red'); 
+    //thickness
+    strokeWeight(6);
+     //A rectangle
+    rect (40, 120, 120, 40, 4);
+ }
+```
+
+This is my solution to creating a rectangle I used the extra value in the rectangle field for a colour in the centre of the shape.
+
 ###### **Quadrangle**
 
 Added completed quad example.****
