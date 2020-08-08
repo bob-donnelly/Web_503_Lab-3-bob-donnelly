@@ -1,14 +1,16 @@
 ### Lab 3 journal
 
-
-
 Made a repository and added all necessary folders and files to complete the shapes specified in the lab's readMe.
 
 Added Alikahwaji as a collaborator to my repo.
 
+###### **Rectangle**
+
 Changed some files and created a rectangle example. I used (p5.js.org) *examples/hello-p5-simple-shapes* (n.d)
 
-Added completed quad example.
+###### **Quadrangle**
+
+Added completed quad example.****
 
 ```
 function draw (){
@@ -29,6 +31,8 @@ function draw (){
 ```
 
 Above is my solution to the quad example. I used the references (p5.js.org) *reference/#/p5/quad* (n.d) and (p5.js.org) *reference/#/p5/rotate* (n.d) plus (p5.js.org) *reference/#/p5/blue* (n.d) I tried to change strokeweight to noStroke and forgot to delete the extra code.
+
+**Cylinder**
 
 Made a cylinder 3D model using WEBGL below is the code. (p5js.org) *examples 3D geometries* (n.d)  
 
@@ -62,7 +66,29 @@ function draw() {
 
 Above is my code for cylinders rotating  on the page. (p5js.org) *reference p5 cylinder* (n.d) (p5js.org) *reference p5 push* (n.d) Also looked at the push / pop commands which as stated in the code make it so you can create successive draw commands.
 
-###### **References** 
+###### **Ellipsoid**
+
+Made an ellipsoid.
+
+```
+//Set up for the canvas and modelling api
+function setup() {
+    createCanvas(1000, 600, WEBGL);
+  }
+  //Draw function to "draw" a object with code
+  function draw() {
+  //Background colour right now pretty in pink
+   background(250, 200, 225);
+   //fill colour for a brown rugby ball
+   fill(150, 125, 130);  
+   //Elongated shpere or as we call it in NZ national ball sport
+   ellipsoid(80, 120, 120,);
+  }
+```
+
+The code above I used the reference (p5.js.org) *reference p5 ellipsoid* (n.d) plus (p5.js.org) *reference/#/p5/blue* (n.d) my parametres for my ellipsoid were 80, 120, 120 as above.
+
+**References** 
 
 https://p5js.org/examples/hello-p5-simple-shapes.html
 
@@ -77,3 +103,5 @@ https://p5js.org/examples/3d-geometries.html
 https://p5js.org/reference/#/p5/cylinder
 
 https://p5js.org/reference/#/p5/push
+
+https://p5js.org/reference/#/p5/ellipsoid
